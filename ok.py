@@ -1,4 +1,4 @@
-from py2fa import Totp
+from T2fa import Totp
 
 def test():
 
