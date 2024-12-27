@@ -1,10 +1,10 @@
-# Py2fa - Simple and Easy-to-Use TOTP Generator
+# T2fa - Simple and Easy-to-Use TOTP Generator
 
-**Py2fa** is a lightweight and easy-to-use Time-Based One-Time Password (TOTP) generator. This library is perfect for developers who need to integrate TOTP functionality into their tools, whether for authentication or security-related applications. With Py2fa, you can easily generate TOTP tokens for use in requests-based tools, APIs, and many other applications that require secure one-time passwords.
+**T2fa** is a lightweight and easy-to-use Time-Based One-Time Password (TOTP) generator. This library is perfect for developers who need to integrate TOTP functionality into their tools, whether for authentication or security-related applications. With T2fa, you can easily generate TOTP tokens for use in requests-based tools, APIs, and many other applications that require secure one-time passwords.
 
 ## Features
 
-- **Easy Integration**: Py2fa allows for simple integration with your Python projects.
+- **Easy Integration**: T2fa allows for simple integration with your Python projects.
 - **Multiple Algorithm Support**: Supports SHA-1, SHA-256, and SHA-512 algorithms for TOTP generation.
 - **Flexible**: Customize the number of digits and time intervals for OTP generation.
 - **Cross-Platform**: Works on all major platforms where Python is supported.
@@ -14,18 +14,18 @@
 
 ### Using pip
 
-You can easily install Py2fa via `pip`, Python's package manager. Simply run the following command:
+You can easily install T2fa via `pip`, Python's package manager. Simply run the following command:
 
 ```bash
-pip install py2fa
+pip install T2fa
 ```
 
 ### Manual Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AxZeRxD/Py2fa.git
-   cd Py2fa
+   git clone https://github.com/AxZeRxD/T2fa.git
+   cd T2fa
    ```
 
 2. Install dependencies:
@@ -37,12 +37,12 @@ pip install py2fa
 
 ## Usage
 
-### Importing Py2fa
+### Importing T2fa
 
 To get started, you first need to import the `Totp` class from the package:
 
 ```python
-from py2fa import Totp
+from T2fa import Totp
 ```
 
 ### Example Usage
